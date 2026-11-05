@@ -5,6 +5,18 @@
   "interpretation": "reviewed_at 是来源检查日期。supports 记录来源能够支持的判断；论文结果仍属于作者报告。证据等级应针对具体评分主张另行确定，不能给整个来源统一打 A 后套用到所有结论。",
   "sources": [
     {
+      "id": "E014",
+      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
+      "url": "https://arxiv.org/abs/2611.00166",
+      "version": "arXiv:2611.00166; abstract reviewed",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": ["Abstract"],
+      "supports": ["作者报告检查停止判断开销、跨模型与任务迁移及可靠性，构成 T04 的新增查新入口。"],
+      "limits": ["仅检查摘要，未独立复现。", "不能据此断言 T04 没有剩余研究空间，需全文与附录比较。"],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
       "id": "E001",
       "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
       "url": "https://arxiv.org/html/2608.06270v2",
@@ -274,6 +286,207 @@
         "不是本科实习资格或当前用户可录用性的证明。",
         "能力相关性不能量化为录用概率提升。",
         "尚未形成用户项目成果到这些要求的完整映射。"
+      ],
+      "publication_status": "not_applicable"
+    },
+    {
+      "id": "E015",
+      "title": "Scaling Domain Data Repetition in LLM Pretraining",
+      "url": "https://arxiv.org/abs/2608.14071",
+      "version": "arXiv 2608.14071",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者研究预训练混合中的领域数据重复及跨规模变化。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E016",
+      "title": "Latent Core Tokenizer: Compress, but Meaningfully",
+      "url": "https://arxiv.org/abs/2610.12376",
+      "version": "arXiv 2610.12376",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者在 104 种语言上比较分词效率，并报告多语下游结果。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E017",
+      "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+      "url": "https://arxiv.org/abs/2604.15149",
+      "version": "arXiv 2604.15149",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者研究模型如何利用可验证奖励的漏洞。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E018",
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "url": "https://arxiv.org/abs/2610.23831",
+      "version": "arXiv 2610.23831",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者按学生可利用的程度筛选轨迹，并报告源任务与迁移表现。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E019",
+      "title": "What Does a Temporal Benchmark Score Measure? Decomposing Channel Use in Video VLM Evaluation",
+      "url": "https://arxiv.org/abs/2607.12304",
+      "version": "arXiv 2607.12304",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者分开干预时间线索，分析不同视频模型依赖何种线索。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E020",
+      "title": "What-If World: A Causal Benchmark for General World Models in Embodied Scenarios",
+      "url": "https://arxiv.org/abs/2605.27589",
+      "version": "arXiv 2605.27589",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者以同一初始状态和配对干预检验预测未来的因果一致性。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E021",
+      "title": "RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2604.19092",
+      "version": "arXiv 2604.19092",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者将视频转成动作在仿真执行，报告视觉可信与动作可执行并不总一致。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E022",
+      "title": "Leave No Observation Behind: Real-time Correction for VLA Action Chunks",
+      "url": "https://arxiv.org/abs/2509.23224",
+      "version": "arXiv 2509.23224",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要",
+        "Table 1, LIBERO Spatial"
+      ],
+      "supports": [
+        "作者分析推理延迟，并以最新观测纠正动作块。",
+        "表 1 在执行长度 40、延迟 10 步且每任务 50 次试验的条件下，报告基线成功率 64.4%、A2C2 为 84.2%，相差 19.8 个百分点。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。",
+        "该行比较固定延迟条件下的两种方法，不能回答相同平均延迟下抖动分布的影响。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E023",
+      "title": "RAVEL: Asynchronous Rolling Inference for Flow-Based Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2609.34170",
+      "version": "arXiv 2609.34170",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者解耦慢速编码与滚动动作生成，以实时观测改善响应。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E024",
+      "title": "Does Continual Imitation Learning Remain Grounded? A Language-Perturbed Benchmark for Robotic Task Retention",
+      "url": "https://arxiv.org/abs/2610.00542",
+      "version": "arXiv 2610.00542",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "摘要"
+      ],
+      "supports": [
+        "作者通过语言扰动检验机器人持续学习后保留的技能是否仍受指令控制。"
+      ],
+      "limits": [
+        "本轮初查摘要。正文、附录和代码仍需比较，作者报告待独立复现。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E025",
+      "title": "NVIDIA DreamGen",
+      "url": "https://research.nvidia.com/labs/gear/dreamgen/",
+      "version": "2025-05-20",
+      "reviewed_at": "2026-11-05",
+      "kind": "company_research_page",
+      "locations": [
+        "四阶段流程及行为泛化"
+      ],
+      "supports": [
+        "官方报告用生成视频提取伪动作训练策略，展示 22 种新行为。"
+      ],
+      "limits": [
+        "证明该流程有企业研究案例。没有给出本候选筛选方案的生产净收益。"
       ],
       "publication_status": "not_applicable"
     }
