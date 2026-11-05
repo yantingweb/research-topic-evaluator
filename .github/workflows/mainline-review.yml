@@ -1,0 +1,16 @@
+name: Mainline research review
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify topic status records
+        run: python3 scripts/check_mainline.py
+      - name: Verify promotion checks
+        run: python3 -m unittest discover -s tests

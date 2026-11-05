@@ -1,10 +1,11 @@
 {
   "schema_version": "1.0",
-  "policy_version": "1.2-discussion",
+  "policy_version": "1.3-discussion",
   "record_type": "template_not_assessment",
   "topic_id": null,
   "topic_title": null,
   "stage": "literature_audit",
+  "mainline_review_ref": null,
   "assessed_at": null,
   "assessor": null,
   "research_question": null,

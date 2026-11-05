@@ -11,7 +11,7 @@
 
 ## 阅读顺序
 
-先看[扩展选题池 Excel](outputs/科研选题池（扩展阅读版）.xlsx)。总览包含 13 个候选，六维详评列出评分状态、证据与待验证项，证据索引可追溯出处。
+先看[当前选题状态](reviews/topic-status.json)和[论文主线审查](docs/mainline-review.md)。[扩展选题池 Excel](outputs/科研选题池（扩展阅读版）.xlsx)保留前 13 个候选的证据快照。当前状态以登记为准。
 
 1. [CONTEXT.md](CONTEXT.md)：个人背景、目标、资源、讨论边界与下一步。
 2. [评分规则](docs/scoring-policy.md)：六维判据、量化指标、评分分档与否决条件。

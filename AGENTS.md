@@ -12,3 +12,4 @@
 - 写入上下文后检查本地链接、JSON 与分数缺失状态，按任务范围提交清晰的 Git 记录。
 - GitHub 远程仓库为 `yantingweb/research-topic-evaluator`。发布与开发范围以用户的任务指示为准。
 - 输出选题时附 Excel。总览每行一个选题，只列状态、主要障碍和下一步。详评按选题分块，每个维度一行，评分和证据相邻。完整出处放证据索引。优先量化，也接受有说服力的定性分析、财报及行业判断。行业判断须注明假设和推测。缺据保留待验证。
+- 选题建议和 Excel 必须遵循 `reviews/topic-status.json`。查新优先级和高分不能视作主线结论。按 `docs/mainline-review.md` 补全证据后更新状态，运行 `python scripts/check_mainline.py`。只有 `mainline_approved` 可推荐投入主线。

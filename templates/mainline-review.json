@@ -1,0 +1,34 @@
+{
+  "topic_id": null,
+  "claim": null,
+  "search": {"date": null, "databases": [], "queries": []},
+  "nearest_work": [
+    {"url": null, "location": null, "already_answers": null, "remaining_difference": null, "counterevidence": null}
+  ],
+  "pilot": {
+    "plan_ref": null,
+    "strong_baseline": null,
+    "held_out_protocol": null,
+    "metric": null,
+    "unit": null,
+    "min_effect": null,
+    "threshold_basis": null,
+    "budget": null,
+    "stop_rule": null
+  },
+  "importance": {"affected_group": null, "decision": null, "cost_of_error": null, "source_url": null},
+  "result": {
+    "artifact_ref": null,
+    "metric": null,
+    "unit": null,
+    "observed_effect": null,
+    "uncertainty_lower_bound": null,
+    "uncertainty_method": null,
+    "budget_comparison": null,
+    "alternative_explanations": null
+  },
+  "replication": {"artifact_ref": null, "independent_setting": null, "scope": null},
+  "full_resources": {"budget": null, "access": null},
+  "target_venue": null,
+  "user_decision": {"approved": false, "record_ref": null}
+}

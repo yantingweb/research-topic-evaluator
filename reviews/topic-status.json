@@ -1,0 +1,18 @@
+[
+  {"topic_id":"T01","status":"literature_audit","reason":"原视觉干预切口与 CauAudit 重合。"},
+  {"topic_id":"T02","status":"literature_audit","reason":"重评分决策与现有在线数据选择方法待比较。"},
+  {"topic_id":"T03","status":"literature_audit","reason":"检查点排序变化与调参不公平需要区分。"},
+  {"topic_id":"T04","status":"literature_audit","reason":"已有风险迁移和停止开销研究。"},
+  {"topic_id":"T05","status":"literature_audit","reason":"闭环验证条件及新增贡献未确认。"},
+  {"topic_id":"T06","status":"literature_audit","reason":"近重复集中度与配比的独立作用待核查。"},
+  {"topic_id":"T07","status":"literature_audit","reason":"分词压缩与泛化的公平预算对照待查。"},
+  {"topic_id":"T08","status":"short_project","reason":"已有静态漏测审计和强测试方法。局部节省尚未证实影响端到端成本或训练能力。"},
+  {"topic_id":"T09","status":"literature_audit","reason":"已有按学生选择蒸馏轨迹的直接近邻。"},
+  {"topic_id":"T10","status":"literature_audit","reason":"视频采样的时序增益与端到端成本待比较。"},
+  {"topic_id":"T11","status":"literature_audit","reason":"已有因果和动作可执行性评估，训练增益待验证。"},
+  {"topic_id":"T12","status":"literature_audit","reason":"可变延迟已有工作，连续卡顿效应待查。"},
+  {"topic_id":"T13","status":"literature_audit","reason":"已有持续学习后语言约束研究。"},
+  {"topic_id":"T14","status":"literature_audit","reason":"跨阶段排序已有直接近邻，SFT 预算导致的误淘汰损失尚未实测。"},
+  {"topic_id":"T15","status":"literature_audit","reason":"尚未证明回退诊断能以更低代价选择有效修复。"},
+  {"topic_id":"T16","status":"literature_audit","reason":"缺同等人工时间下与失败率分配基线的闭环比较。"}
+]
