@@ -1,0 +1,17 @@
+# Local credentials and private material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets/
+private/
+
+# Generated local artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store

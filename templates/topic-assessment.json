@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "1.1-discussion",
+  "record_type": "template_not_assessment",
+  "topic_id": null,
+  "topic_title": null,
+  "stage": "literature_audit",
+  "assessed_at": null,
+  "assessor": null,
+  "research_question": null,
+  "conditions": [],
+  "observation": null,
+  "hypothesis": null,
+  "rival_explanations": [],
+  "closest_work": [],
+  "proposed_increment": null,
+  "falsifying_results": [],
+  "search_boundary": {
+    "searched_at": null,
+    "databases": [],
+    "queries": [],
+    "filters": [],
+    "inclusion_criteria": [],
+    "exclusion_criteria": [],
+    "full_text_gaps": []
+  },
+  "resources": {
+    "gpu_memory_gb": 24,
+    "gpu_model": null,
+    "budget_limit": null,
+    "weekly_hours": null,
+    "profile_status": "not_run",
+    "peak_memory_gb": null,
+    "wall_time_seconds": null,
+    "full_experiment_matrix": [],
+    "total_cost_estimate": null
+  },
+  "gates": {
+    "innovation_space": {
+      "status": "unknown",
+      "reason": null,
+      "evidence_refs": []
+    },
+    "credible_experiment": {
+      "status": "unknown",
+      "reason": null,
+      "evidence_refs": []
+    },
+    "resources": {
+      "status": "unknown",
+      "reason": null,
+      "evidence_refs": []
+    }
+  },
+  "dimensions": {
+    "academic": {
+      "weight_percent": 25,
+      "score": null,
+      "criteria": [
+        {
+          "id": "problem_importance",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "increment_over_closest_work",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "contribution_depth_and_scope",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        }
+      ]
+    },
+    "industry": {
+      "weight_percent": 15,
+      "score": null,
+      "criteria": [
+        {
+          "id": "specific_use_case_and_constraint",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "limitations_of_existing_solutions",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "effect_on_engineering_decisions",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        }
+      ]
+    },
+    "measurability": {
+      "weight_percent": 15,
+      "score": null,
+      "criteria": [
+        {
+          "id": "falsifiable_hypothesis",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "measurement_validity",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "discrimination_between_rival_explanations",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        }
+      ]
+    },
+    "feasibility": {
+      "weight_percent": 15,
+      "score": null,
+      "criteria": [
+        {
+          "id": "full_validation_cost",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "data_and_code_access",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "ability_to_understand_and_debug",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        }
+      ]
+    },
+    "job_fit": {
+      "weight_percent": 15,
+      "score": null,
+      "criteria": [
+        {
+          "id": "specific_role_task_overlap",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "inspectable_deliverables",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "demonstrable_personal_contribution",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        }
+      ]
+    },
+    "lab_fit": {
+      "weight_percent": 15,
+      "score": null,
+      "criteria": [
+        {
+          "id": "recent_problem_overlap",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "method_and_paradigm_fit",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        },
+        {
+          "id": "substantive_research_discussion",
+          "score": null,
+          "reason": null,
+          "supporting_evidence": [],
+          "opposing_evidence": [],
+          "evidence_grade": "D",
+          "confidence": null,
+          "confidence_reason": null,
+          "known_unknowns": [],
+          "next_check": null,
+          "assessed_at": null
+        }
+      ]
+    }
+  },
+  "total_score": null,
+  "experiment_results": [],
+  "go_pivot_stop": null,
+  "human_decision": {
+    "status": "pending",
+    "decided_at": null,
+    "reason": null
+  },
+  "recommendation_reversal_conditions": [],
+  "decision_history": [],
+  "limitations": [
+    "此模板没有已完成评估。",
+    "空分数不得自动补齐；缺失子项不得重新加权。",
+    "证据引用需包含来源 ID、具体位置、版本及所支持的判断。"
+  ]
+}

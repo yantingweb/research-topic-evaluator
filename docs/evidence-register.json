@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-11-05",
+  "scope": "本讨论实际查看过的公开来源与支持范围；不是系统综述，也不是独立复现实验记录。",
+  "interpretation": "reviewed_at 是来源检查日期。supports 记录来源能够支持的判断；论文结果仍属于作者报告。证据等级应针对具体评分主张另行确定，不能给整个来源统一打 A 后套用到所有结论。",
+  "sources": [
+    {
+      "id": "E001",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "url": "https://arxiv.org/html/2608.06270v2",
+      "version": "arXiv:2608.06270v2",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_full_text",
+      "locations": [
+        "3.3.2",
+        "A.3",
+        "A.4",
+        "B.1",
+        "B.4"
+      ],
+      "supports": [
+        "作者已比较 random-crop、noise、blank 干预并分析敏感性。",
+        "作者已用 force-answer 实验检查截断对结果的影响。",
+        "A.4 报告使用 H200，评判模型独立部署。"
+      ],
+      "limits": [
+        "记录论文报告，未独立复现。",
+        "与早期候选切口有实质重合，但未证明所有相关问题都已解决。",
+        "原文配置不能直接推出缩小实验在 24GB 上可行或不可行。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E002",
+      "title": "GACD: Mitigating Multimodal Hallucinations via Gradient-based Self-Reflection",
+      "url": "https://research.nvidia.com/labs/sil/projects/gacd/site/index.html",
+      "version": "official_project_page",
+      "reviewed_at": "2026-11-05",
+      "kind": "company_research_page",
+      "locations": [
+        "Abstract",
+        "Method Overview"
+      ],
+      "supports": [
+        "NVIDIA 参与的公开研究关注视觉依据、文本偏置与多模态幻觉。"
+      ],
+      "limits": [
+        "企业研究兴趣不能替代本候选的具体生产痛点与采用条件。",
+        "未独立验证性能或部署收益。"
+      ],
+      "publication_status": "page_labels_CVPR_2026; proceedings_not_independently_checked_here"
+    },
+    {
+      "id": "E003",
+      "title": "LESS: Selecting Influential Data for Targeted Instruction Tuning",
+      "url": "https://arxiv.org/abs/2402.04333",
+      "version": "arXiv:2402.04333v3",
+      "reviewed_at": "2026-11-04",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "Abstract",
+        "Comments"
+      ],
+      "supports": [
+        "目标能力数据选择已有直接相关工作。"
+      ],
+      "limits": [
+        "本记录不能建立重评分决策的原创性。",
+        "代码维护和当前兼容性没有运行核查。"
+      ],
+      "publication_status": "arxiv_comments_ICML_2024; proceedings_not_independently_checked_here"
+    },
+    {
+      "id": "E004",
+      "title": "Online Data Selection for Instruction Tuning via Gaussian Processes",
+      "url": "https://arxiv.org/html/2606.30077v1",
+      "version": "arXiv:2606.30077v1",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_full_text",
+      "locations": [
+        "4.1",
+        "4.3",
+        "4.4",
+        "A.12"
+      ],
+      "supports": [
+        "GAIA 显式处理训练中非平稳的数据质量信号。",
+        "作者在附录讨论额外计算开销。",
+        "作者署名单位包含 Amazon，提供企业研究相关性线索。"
+      ],
+      "limits": [
+        "不表示本项目已复现其理论条件、性能或成本。",
+        "所报成本不能直接套用到用户硬件和研究矩阵。",
+        "不能把动态数据价值本身视为未有工作的研究空白。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E005",
+      "title": "Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)",
+      "url": "https://arxiv.org/abs/2610.02092",
+      "version": "arXiv:2610.02092v1",
+      "reviewed_at": "2026-11-04",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "Abstract"
+      ],
+      "supports": [
+        "TESS 是可迁移数据评分与选择的相关工作。"
+      ],
+      "limits": [
+        "主要核查摘要，细节需全文比较。",
+        "不能据此确认候选触发重评分机制有新增贡献。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E006",
+      "title": "Weight Decay Improves Language Model Plasticity",
+      "url": "https://arxiv.org/html/2602.11137v2",
+      "version": "arXiv:2602.11137v2",
+      "reviewed_at": "2026-11-05",
+      "kind": "paper_full_text",
+      "locations": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "supports": [
+        "作者研究预训练权重衰减与下游适应性及预训练损失的关系。",
+        "可塑性与预训练／后训练连接已有研究背景。"
+      ],
+      "limits": [
+        "未独立复现。",
+        "不能据此确认跨 LoRA／全参数微调的检查点排序问题尚未被解决。",
+        "不能直接把现象推广到全部模型、任务和预算。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E007",
+      "title": "EleutherAI Pythia",
+      "url": "https://github.com/EleutherAI/pythia",
+      "version": "README_review_snapshot",
+      "reviewed_at": "2026-11-05",
+      "kind": "official_repository",
+      "locations": [
+        "Models",
+        "README checkpoint description"
+      ],
+      "supports": [
+        "项目提供多模型规模和训练中间检查点，为学习动态实验提供入口。"
+      ],
+      "limits": [
+        "公开检查点不证明完整实验低成本。",
+        "未下载检查点或验证其在当前环境可运行。",
+        "数据、模型和代码许可需按使用对象分别核查。"
+      ],
+      "publication_status": "not_applicable"
+    },
+    {
+      "id": "E008",
+      "title": "When Does Learning to Stop Help? A Cost-Aware Study of Early Exits in Reasoning Models",
+      "url": "https://arxiv.org/abs/2606.30852",
+      "version": "arXiv:2606.30852v2",
+      "reviewed_at": "2026-11-04",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "Abstract"
+      ],
+      "supports": [
+        "已有工作比较提前停止策略、正确答案损失容忍度及探测开销。"
+      ],
+      "limits": [
+        "细节、迁移范围和实现仍需全文审查。",
+        "尚无本项目复现或新增贡献。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E009",
+      "title": "Calibration-Free Early Stopping for Chain-of-Thought Reasoning via E-processes",
+      "url": "https://arxiv.org/abs/2610.25212",
+      "version": "arXiv:2610.25212v1",
+      "reviewed_at": "2026-11-04",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "Abstract"
+      ],
+      "supports": [
+        "已有工作研究停止阈值迁移与信号级统计保证。"
+      ],
+      "limits": [
+        "必须检查原文保证的条件和目标量，不能将信号保证自动解释为答案正确性保证。",
+        "全文理论和实验未完成独立审查。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E010",
+      "title": "Dissecting Advantage-Guided Post-Training for Vision-Language-Action Policies",
+      "url": "https://arxiv.org/abs/2609.28161",
+      "version": "arXiv:2609.28161v1",
+      "reviewed_at": "2026-11-04",
+      "kind": "paper_metadata_and_abstract",
+      "locations": [
+        "Abstract"
+      ],
+      "supports": [
+        "已有阶段化离线评估与下游机器人表现的直接相关研究。"
+      ],
+      "limits": [
+        "不证明本项目可在无机器人条件下验证真实泛化。",
+        "拟贡献需全文查重。"
+      ],
+      "publication_status": "arxiv_preprint; venue_acceptance_not_verified"
+    },
+    {
+      "id": "E011",
+      "title": "Physical Intelligence openpi",
+      "url": "https://github.com/Physical-Intelligence/openpi",
+      "version": "README_review_snapshot",
+      "reviewed_at": "2026-11-04",
+      "kind": "official_repository",
+      "locations": [
+        "Requirements"
+      ],
+      "supports": [
+        "README 估计推理需要 >8GB、LoRA 微调 >22.5GB、全参数微调 >70GB 显存。"
+      ],
+      "limits": [
+        "估计依赖模型与配置，实际硬件须测量。",
+        "未在用户 24GB GPU 上运行。",
+        "仿真与真实机器人验证的成本需另外计算。"
+      ],
+      "publication_status": "not_applicable"
+    },
+    {
+      "id": "E012",
+      "title": "GAIR research overview",
+      "url": "https://plms.ai/research/",
+      "version": "public_page_review_snapshot",
+      "reviewed_at": "2026-11-05",
+      "kind": "lab_research_page",
+      "locations": [
+        "Selected Papers",
+        "Selected Projects"
+      ],
+      "supports": [
+        "团队公开列出 LIMO、LIMR 等推理与数据效率研究入口。"
+      ],
+      "limits": [
+        "没有完成本候选到具体导师及近期论文的匹配。",
+        "不能证明当前名额、接收意愿或录取收益。"
+      ],
+      "publication_status": "not_applicable"
+    },
+    {
+      "id": "E013",
+      "title": "OpenAI Research Engineer / Research Scientist, Human Flourishing",
+      "url": "https://openai.com/careers/research-engineer-research-scientist-human-flourishing-san-francisco/",
+      "version": "public_job_page_review_snapshot",
+      "reviewed_at": "2026-11-05",
+      "kind": "official_job_posting",
+      "locations": [
+        "In this role, you will",
+        "You might thrive in this role if you"
+      ],
+      "supports": [
+        "岗位涉及 RL／后训练、泛化、可靠评测、严谨实验与代码排错。"
+      ],
+      "limits": [
+        "不是本科实习资格或当前用户可录用性的证明。",
+        "能力相关性不能量化为录用概率提升。",
+        "尚未形成用户项目成果到这些要求的完整映射。"
+      ],
+      "publication_status": "not_applicable"
+    }
+  ]
+}
